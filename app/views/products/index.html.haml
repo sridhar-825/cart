@@ -1,0 +1,18 @@
+
+%h1 Listing products
+%table
+  %tr
+    %th
+    %th Id
+    %th Name
+    %th Price
+  = form_tag(:action => 'add_to_cart')
+  - for product in @products
+    %tr
+      %td= check_box("to_check", product.id, {}, "yes", " ")
+      %td= h product.id
+      %td= h product.name
+      %td= h product.price
+%br/
+= submit_tag 'Add To Cart'
+= link_to 'New product', new_product_path

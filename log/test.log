@@ -1,0 +1,1173 @@
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE DATABASE `cart_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_general_ci`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Create (0.0ms)[0m   [0;1mINSERT INTO `products` (`name`, `price`, `created_at`, `updated_at`) VALUES('wrox', 100, '2010-12-17 09:17:33', '2010-12-17 09:17:33')[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Create (0.0ms)[0m   [0;1mINSERT INTO `products` (`name`, `price`, `created_at`, `updated_at`) VALUES('wrox', 100, '2010-12-17 09:27:42', '2010-12-17 09:27:42')[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mOrder Create (0.0ms)[0m   [0;1mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`) VALUES('2010-12-17 10:07:24', 10, 340, '2010-12-17 10:07:24')[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProductOrder Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `product_orders`[0m
+  [4;36;1mProductOrder Create (0.0ms)[0m   [0;1mINSERT INTO `product_orders` (`created_at`, `product_id`, `order_id`, `updated_at`) VALUES('2010-12-17 10:26:33', 3, 10, '2010-12-17 10:26:33')[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mOrder Create (0.0ms)[0m   [0;1mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`) VALUES('2010-12-17 10:27:02', 10, 340, '2010-12-17 10:27:02')[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProductOrder Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `product_orders`[0m
+  [4;36;1mProductOrder Create (15.6ms)[0m   [0;1mINSERT INTO `product_orders` (`created_at`, `product_id`, `order_id`, `updated_at`) VALUES('2010-12-17 10:27:02', 3, 10, '2010-12-17 10:27:02')[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Create (0.0ms)[0m   [0;1mINSERT INTO `products` (`name`, `price`, `created_at`, `updated_at`) VALUES('wrox', 100, '2010-12-17 10:27:02', '2010-12-17 10:27:02')[0m
+  [4;35;1mSQL (31.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Exists (0.0ms)[0m   [0mSELECT `products`.id FROM `products` WHERE (`products`.`name` IS NULL) LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Exists (0.0ms)[0m   [0mSELECT `products`.id FROM `products` WHERE (`products`.`name` IS NULL) LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Exists (0.0ms)[0m   [0;1mSELECT `products`.id FROM `products` WHERE (`products`.`name` IS NULL) LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Exists (0.0ms)[0m   [0;1mSELECT `products`.id FROM `products` WHERE (`products`.`name` IS NULL) LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mProduct Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mProductOrder Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mProductOrder Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProductOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `product_orders`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mProductOrder Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProduct Create (0.0ms)[0m   [0;1mINSERT INTO `products` (`name`, `price`, `created_at`, `updated_at`) VALUES('wrox', 10, '2010-12-17 15:07:46', '2010-12-17 15:07:46')[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (31.2ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProduct Create (0.0ms)[0m   [0;1mINSERT INTO `products` (`name`, `price`, `created_at`, `updated_at`) VALUES('wrox', 10, '2010-12-18 07:37:21', '2010-12-18 07:37:21')[0m
+  [4;35;1mSQL (31.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProduct Create (0.0ms)[0m   [0;1mINSERT INTO `products` (`name`, `price`, `created_at`, `updated_at`) VALUES('wrox', 101, '2010-12-18 07:38:16', '2010-12-18 07:38:16')[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProduct Create (0.0ms)[0m   [0;1mINSERT INTO `products` (`name`, `price`, `created_at`, `updated_at`) VALUES('wrox', 201, '2010-12-18 07:41:07', '2010-12-18 07:41:07')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mProductOrder Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProduct Create (0.0ms)[0m   [0;1mINSERT INTO `products` (`name`, `price`, `created_at`, `updated_at`, `id`) VALUES('wrox', 201, '2010-12-20 05:10:01', '2010-12-20 05:10:01', 1)[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mProductOrder Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProduct Create (0.0ms)[0m   [0;1mINSERT INTO `products` (`name`, `price`, `created_at`, `updated_at`, `id`) VALUES('wrox', 200, '2010-12-20 05:14:58', '2010-12-20 05:14:58', 1)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mProductOrder Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mProductOrder Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mProductOrder Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `orders` [0m
+
+
+Processing OrdersController#create (for 0.0.0.0 at 2010-12-20 13:04:13) [POST]
+  Parameters: {"order"=>{}}
+Rendering template within layouts/orders
+Rendering orders/new
+Completed in 31ms (View: 16, DB: 16) | 200 OK [http://test.host/orders?]
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `orders` [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `orders` [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing OrdersController#index (for 0.0.0.0 at 2010-12-20 13:04:13) [GET]
+  [4;35;1mOrder Load (0.0ms)[0m   [0mSELECT * FROM `orders` [0m
+Rendering template within layouts/orders
+Rendering orders/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://test.host/orders]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing OrdersController#new (for 0.0.0.0 at 2010-12-20 13:04:13) [GET]
+Rendering template within layouts/orders
+Rendering orders/new
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/orders/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProductOrder Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `product_orders` [0m
+
+
+Processing ProductOrdersController#create (for 0.0.0.0 at 2010-12-20 13:04:13) [POST]
+  Parameters: {"product_order"=>{}}
+  [4;36;1mProductOrder Create (0.0ms)[0m   [0;1mINSERT INTO `product_orders` (`created_at`, `product_id`, `order_id`, `updated_at`) VALUES('2010-12-20 07:34:13', NULL, NULL, '2010-12-20 07:34:13')[0m
+Redirected to #<ProductOrder:0x46e0078>
+Completed in 16ms (DB: 0) | 302 Found [http://test.host/product_orders?]
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `product_orders` [0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `product_orders` [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing ProductOrdersController#index (for 0.0.0.0 at 2010-12-20 13:04:13) [GET]
+  [4;35;1mProductOrder Load (0.0ms)[0m   [0mSELECT * FROM `product_orders` [0m
+Rendering template within layouts/product_orders
+Rendering product_orders/index
+Completed in 0ms (View: 0, DB: 16) | 200 OK [http://test.host/product_orders]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing ProductOrdersController#new (for 0.0.0.0 at 2010-12-20 13:04:13) [GET]
+Rendering template within layouts/product_orders
+Rendering product_orders/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://test.host/product_orders/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProduct Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `orders` [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `product_orders` [0m
+
+
+Processing ProductsController#add_to_cart (for 0.0.0.0 at 2010-12-20 13:04:13) [GET]
+  Parameters: {"product"=>["__"]}
+Redirected to actionindex
+Completed in 0ms (DB: 16) | 302 Found [http://test.host/products/add_to_cart?product%5B%5D=__]
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `products` [0m
+
+
+Processing ProductsController#create (for 0.0.0.0 at 2010-12-20 13:04:13) [POST]
+  Parameters: {"product"=>{}}
+Rendering template within layouts/products
+Rendering products/new
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://test.host/products?]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `products` [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `products` [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing ProductsController#index (for 0.0.0.0 at 2010-12-20 13:04:13) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/products]
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing ProductsController#new (for 0.0.0.0 at 2010-12-20 13:04:13) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/products/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mProductOrder Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mOrder Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `orders`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `orders` [0m
+  [4;36;1mProductOrder Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `product_orders` [0m
+
+
+Processing ProductsController#add_to_cart (for 0.0.0.0 at 2010-12-20 13:09:41) [GET]
+  Parameters: {"product"=>["__"]}
+Redirected to actionindex
+Completed in 0ms (DB: 47) | 302 Found [http://test.host/products/add_to_cart?product%5B%5D=__]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mOrder Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `orders`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `orders` [0m
+  [4;36;1mProductOrder Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `product_orders` [0m
+
+
+Processing ProductsController#add_to_cart (for 0.0.0.0 at 2010-12-20 13:11:14) [GET]
+  Parameters: {"product"=>["__"]}
+Redirected to actionindex
+Completed in 0ms (DB: 16) | 302 Found [http://test.host/products/add_to_cart?product%5B%5D=__]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mOrder Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `orders`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `orders` [0m
+  [4;36;1mProductOrder Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `product_orders` [0m
+
+
+Processing ProductsController#add_to_cart (for 0.0.0.0 at 2010-12-20 15:37:12) [GET]
+  Parameters: {"product"=>["__"]}
+Redirected to actionindex
+Completed in 16ms (DB: 47) | 302 Found [http://test.host/products/add_to_cart?product%5B%5D=__]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mOrder Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `orders`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `orders` [0m
+  [4;36;1mProductOrder Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `product_orders` [0m
+
+
+Processing ProductsController#add_to_cart (for 0.0.0.0 at 2010-12-20 15:39:06) [GET]
+  Parameters: {"product"=>["__"]}
+Redirected to actionindex
+Completed in 0ms (DB: 31) | 302 Found [http://test.host/products/add_to_cart?product%5B%5D=__]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+
+
+Processing ProductsController#add_to_cart (for 0.0.0.0 at 2010-12-20 15:52:33) [GET]
+  Parameters: {"product"=>[",,"]}
+Redirected to actionindex
+Completed in 0ms (DB: 16) | 302 Found [http://test.host/products/add_to_cart?product%5B%5D=%2C%2C]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Create (0.0ms)[0m   [0;1mINSERT INTO `products` (`name`, `price`, `created_at`, `updated_at`, `id`) VALUES('wrox', 200, '2010-12-20 10:53:18', '2010-12-20 10:53:18', 1)[0m
+
+
+Processing ProductsController#add_to_cart (for 0.0.0.0 at 2010-12-20 16:23:18) [GET]
+  Parameters: {"to_check"=>{1=>"yes"}}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;36;1mOrder Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `orders`[0m
+  [4;35;1mOrder Create (15.6ms)[0m   [0mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`) VALUES('2010-12-20 10:53:18', 1, 200, '2010-12-20 10:53:18')[0m
+  [4;36;1mProductOrder Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mProductOrder Create (0.0ms)[0m   [0mINSERT INTO `product_orders` (`created_at`, `product_id`, `order_id`, `updated_at`) VALUES('2010-12-20 10:53:18', 1, 1, '2010-12-20 10:53:18')[0m
+Rendering template within layouts/products
+Rendering products/add_to_cart
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+Completed in 47ms (View: 16, DB: 16) | 200 OK [http://test.host/products/add_to_cart?to_check%5B1%5D=yes]
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `orders` [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `product_orders` [0m
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mOrder Create (0.0ms)[0m   [0;1mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`) VALUES('2010-12-20 11:19:11', 10, 350, '2010-12-20 11:19:11')[0m
+
+
+Processing OrdersController#success (for 0.0.0.0 at 2010-12-20 16:49:11) [GET]
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Create (0.0ms)[0m   [0;1mINSERT INTO `products` (`name`, `price`, `created_at`, `updated_at`, `id`) VALUES('wrox', 200, '2010-12-20 11:19:11', '2010-12-20 11:19:11', 1)[0m
+
+
+Processing ProductsController#add_to_cart (for 0.0.0.0 at 2010-12-20 16:49:11) [GET]
+  Parameters: {"to_check"=>{1=>"yes"}}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;36;1mOrder Create (0.0ms)[0m   [0;1mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`) VALUES('2010-12-20 11:19:11', 1, 200, '2010-12-20 11:19:11')[0m
+  [4;35;1mProductOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `product_orders`[0m
+  [4;36;1mProductOrder Create (0.0ms)[0m   [0;1mINSERT INTO `product_orders` (`created_at`, `product_id`, `order_id`, `updated_at`) VALUES('2010-12-20 11:19:11', 1, 2, '2010-12-20 11:19:11')[0m
+Rendering template within layouts/products
+Rendering products/add_to_cart
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+Completed in 31ms (View: 16, DB: 47) | 200 OK [http://test.host/products/add_to_cart?to_check%5B1%5D=yes]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `orders` [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `product_orders` [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mOrder Create (0.0ms)[0m   [0;1mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`, `id`) VALUES('2010-12-20 11:22:45', 10, 350, '2010-12-20 11:22:45', 1)[0m
+
+
+Processing OrdersController#success (for 0.0.0.0 at 2010-12-20 16:52:45) [GET]
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Create (0.0ms)[0m   [0;1mINSERT INTO `products` (`name`, `price`, `created_at`, `updated_at`, `id`) VALUES('wrox', 200, '2010-12-20 11:22:45', '2010-12-20 11:22:45', 1)[0m
+
+
+Processing ProductsController#add_to_cart (for 0.0.0.0 at 2010-12-20 16:52:45) [GET]
+  Parameters: {"to_check"=>{1=>"yes"}}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;36;1mOrder Create (0.0ms)[0m   [0;1mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`) VALUES('2010-12-20 11:22:45', 1, 200, '2010-12-20 11:22:45')[0m
+  [4;35;1mProductOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `product_orders`[0m
+  [4;36;1mProductOrder Create (0.0ms)[0m   [0;1mINSERT INTO `product_orders` (`created_at`, `product_id`, `order_id`, `updated_at`) VALUES('2010-12-20 11:22:45', 1, 2, '2010-12-20 11:22:45')[0m
+Rendering template within layouts/products
+Rendering products/add_to_cart
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+Completed in 16ms (View: 0, DB: 31) | 200 OK [http://test.host/products/add_to_cart?to_check%5B1%5D=yes]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `orders` [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `product_orders` [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mOrder Create (0.0ms)[0m   [0;1mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`, `id`) VALUES('2010-12-20 11:23:36', 10, 350, '2010-12-20 11:23:36', 1)[0m
+
+
+Processing OrdersController#success (for 0.0.0.0 at 2010-12-20 16:53:36) [GET]
+  [4;35;1mSQL (46.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Create (0.0ms)[0m   [0;1mINSERT INTO `products` (`name`, `price`, `created_at`, `updated_at`, `id`) VALUES('wrox', 200, '2010-12-20 11:23:36', '2010-12-20 11:23:36', 1)[0m
+
+
+Processing ProductsController#add_to_cart (for 0.0.0.0 at 2010-12-20 16:53:36) [GET]
+  Parameters: {"to_check"=>{1=>"yes"}}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;36;1mOrder Create (0.0ms)[0m   [0;1mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`) VALUES('2010-12-20 11:23:36', 1, 200, '2010-12-20 11:23:36')[0m
+  [4;35;1mProductOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `product_orders`[0m
+  [4;36;1mProductOrder Create (0.0ms)[0m   [0;1mINSERT INTO `product_orders` (`created_at`, `product_id`, `order_id`, `updated_at`) VALUES('2010-12-20 11:23:36', 1, 2, '2010-12-20 11:23:36')[0m
+Rendering template within layouts/products
+Rendering products/add_to_cart
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+Completed in 31ms (View: 16, DB: 78) | 200 OK [http://test.host/products/add_to_cart?to_check%5B1%5D=yes]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `orders` [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `product_orders` [0m
+  [4;36;1mSQL (31.2ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+
+
+Processing OrdersController#success (for 0.0.0.0 at 2010-12-20 16:57:23) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProduct Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Create (0.0ms)[0m   [0mINSERT INTO `products` (`name`, `price`, `created_at`, `updated_at`, `id`) VALUES('wrox', 200, '2010-12-20 11:27:23', '2010-12-20 11:27:23', 1)[0m
+
+
+Processing ProductsController#add_to_cart (for 0.0.0.0 at 2010-12-20 16:57:23) [GET]
+  Parameters: {"to_check"=>{1=>"yes"}}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;35;1mOrder Create (0.0ms)[0m   [0mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`) VALUES('2010-12-20 11:27:23', 1, 200, '2010-12-20 11:27:23')[0m
+  [4;36;1mProductOrder Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mProductOrder Create (0.0ms)[0m   [0mINSERT INTO `product_orders` (`created_at`, `product_id`, `order_id`, `updated_at`) VALUES('2010-12-20 11:27:23', 1, 1, '2010-12-20 11:27:23')[0m
+Rendering template within layouts/products
+Rendering products/add_to_cart
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+Completed in 31ms (View: 16, DB: 31) | 200 OK [http://test.host/products/add_to_cart?to_check%5B1%5D=yes]
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `orders` [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `product_orders` [0m
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+
+
+Processing OrdersController#success (for 0.0.0.0 at 2010-12-20 17:02:09) [GET]
+  Parameters: {"Id"=>{nil=>"1"}}
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProduct Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Create (0.0ms)[0m   [0mINSERT INTO `products` (`name`, `price`, `created_at`, `updated_at`, `id`) VALUES('wrox', 200, '2010-12-20 11:32:09', '2010-12-20 11:32:09', 1)[0m
+
+
+Processing ProductsController#add_to_cart (for 0.0.0.0 at 2010-12-20 17:02:09) [GET]
+  Parameters: {"to_check"=>{1=>"yes"}}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;35;1mOrder Create (0.0ms)[0m   [0mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`) VALUES('2010-12-20 11:32:09', 1, 200, '2010-12-20 11:32:09')[0m
+  [4;36;1mProductOrder Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mProductOrder Create (0.0ms)[0m   [0mINSERT INTO `product_orders` (`created_at`, `product_id`, `order_id`, `updated_at`) VALUES('2010-12-20 11:32:09', 1, 1, '2010-12-20 11:32:09')[0m
+Rendering template within layouts/products
+Rendering products/add_to_cart
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+Completed in 16ms (View: 0, DB: 31) | 200 OK [http://test.host/products/add_to_cart?to_check%5B1%5D=yes]
+  [4;35;1mSQL (15.6ms)[0m   [0mSELECT count(*) AS count_all FROM `orders` [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `product_orders` [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+
+
+Processing OrdersController#success (for 0.0.0.0 at 2010-12-20 17:05:20) [GET]
+  Parameters: {"id"=>{nil=>"1"}}
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProduct Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Create (0.0ms)[0m   [0mINSERT INTO `products` (`name`, `price`, `created_at`, `updated_at`, `id`) VALUES('wrox', 200, '2010-12-20 11:35:20', '2010-12-20 11:35:20', 1)[0m
+
+
+Processing ProductsController#add_to_cart (for 0.0.0.0 at 2010-12-20 17:05:20) [GET]
+  Parameters: {"to_check"=>{1=>"yes"}}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;35;1mOrder Create (0.0ms)[0m   [0mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`) VALUES('2010-12-20 11:35:20', 1, 200, '2010-12-20 11:35:20')[0m
+  [4;36;1mProductOrder Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mProductOrder Create (0.0ms)[0m   [0mINSERT INTO `product_orders` (`created_at`, `product_id`, `order_id`, `updated_at`) VALUES('2010-12-20 11:35:20', 1, 1, '2010-12-20 11:35:20')[0m
+Rendering template within layouts/products
+Rendering products/add_to_cart
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+Completed in 31ms (View: 16, DB: 31) | 200 OK [http://test.host/products/add_to_cart?to_check%5B1%5D=yes]
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `orders` [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `product_orders` [0m
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+
+
+Processing OrdersController#success (for 0.0.0.0 at 2010-12-20 17:07:39) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mOrder Load (0.0ms)[0m   [0;1mSELECT * FROM `orders` WHERE (`orders`.`id` = 1) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Create (0.0ms)[0m   [0;1mINSERT INTO `products` (`name`, `price`, `created_at`, `updated_at`, `id`) VALUES('wrox', 200, '2010-12-20 11:37:39', '2010-12-20 11:37:39', 1)[0m
+
+
+Processing ProductsController#add_to_cart (for 0.0.0.0 at 2010-12-20 17:07:39) [GET]
+  Parameters: {"to_check"=>{1=>"yes"}}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;36;1mOrder Create (0.0ms)[0m   [0;1mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`) VALUES('2010-12-20 11:37:39', 1, 200, '2010-12-20 11:37:39')[0m
+  [4;35;1mProductOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `product_orders`[0m
+  [4;36;1mProductOrder Create (0.0ms)[0m   [0;1mINSERT INTO `product_orders` (`created_at`, `product_id`, `order_id`, `updated_at`) VALUES('2010-12-20 11:37:39', 1, 1, '2010-12-20 11:37:39')[0m
+Rendering template within layouts/products
+Rendering products/add_to_cart
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+Completed in 16ms (View: 0, DB: 31) | 200 OK [http://test.host/products/add_to_cart?to_check%5B1%5D=yes]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `orders` [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `product_orders` [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+
+
+Processing OrdersController#success (for 0.0.0.0 at 2010-12-20 17:09:22) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mOrder Load (0.0ms)[0m   [0;1mSELECT * FROM `orders` WHERE (`orders`.`id` = 2) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Create (0.0ms)[0m   [0;1mINSERT INTO `products` (`name`, `price`, `created_at`, `updated_at`, `id`) VALUES('wrox', 200, '2010-12-20 11:39:22', '2010-12-20 11:39:22', 1)[0m
+
+
+Processing ProductsController#add_to_cart (for 0.0.0.0 at 2010-12-20 17:09:22) [GET]
+  Parameters: {"to_check"=>{1=>"yes"}}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;36;1mOrder Create (0.0ms)[0m   [0;1mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`) VALUES('2010-12-20 11:39:22', 1, 200, '2010-12-20 11:39:22')[0m
+  [4;35;1mProductOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `product_orders`[0m
+  [4;36;1mProductOrder Create (0.0ms)[0m   [0;1mINSERT INTO `product_orders` (`created_at`, `product_id`, `order_id`, `updated_at`) VALUES('2010-12-20 11:39:22', 1, 1, '2010-12-20 11:39:22')[0m
+Rendering template within layouts/products
+Rendering products/add_to_cart
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+Completed in 16ms (View: 0, DB: 47) | 200 OK [http://test.host/products/add_to_cart?to_check%5B1%5D=yes]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `orders` [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `product_orders` [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;36;1mOrder Create (0.0ms)[0m   [0;1mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`) VALUES('2010-12-20 11:43:24', 1, 300, '2010-12-20 11:43:24')[0m
+
+
+Processing OrdersController#success (for 0.0.0.0 at 2010-12-20 17:13:24) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mOrder Load (0.0ms)[0m   [0mSELECT * FROM `orders` WHERE (`orders`.`id` = 1) [0m
+Rendering template within layouts/orders
+Rendering orders/success
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/orders/success/1]
+  [4;36;1mSQL (15.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProduct Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Create (0.0ms)[0m   [0mINSERT INTO `products` (`name`, `price`, `created_at`, `updated_at`, `id`) VALUES('wrox', 200, '2010-12-20 11:43:24', '2010-12-20 11:43:24', 1)[0m
+
+
+Processing ProductsController#add_to_cart (for 0.0.0.0 at 2010-12-20 17:13:24) [GET]
+  Parameters: {"to_check"=>{1=>"yes"}}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;35;1mOrder Create (0.0ms)[0m   [0mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`) VALUES('2010-12-20 11:43:24', 1, 200, '2010-12-20 11:43:24')[0m
+  [4;36;1mProductOrder Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mProductOrder Create (0.0ms)[0m   [0mINSERT INTO `product_orders` (`created_at`, `product_id`, `order_id`, `updated_at`) VALUES('2010-12-20 11:43:24', 1, 2, '2010-12-20 11:43:24')[0m
+Rendering template within layouts/products
+Rendering products/add_to_cart
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+Completed in 31ms (View: 16, DB: 31) | 200 OK [http://test.host/products/add_to_cart?to_check%5B1%5D=yes]
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `orders` [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `product_orders` [0m
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;36;1mOrder Create (0.0ms)[0m   [0;1mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`) VALUES('2010-12-20 11:59:50', 1, 300, '2010-12-20 11:59:50')[0m
+
+
+Processing OrdersController#success (for 0.0.0.0 at 2010-12-20 17:29:50) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mOrder Load (0.0ms)[0m   [0mSELECT * FROM `orders` WHERE (`orders`.`id` = 1) [0m
+Rendering template within layouts/orders
+Rendering orders/success
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://test.host/orders/success/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProduct Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Create (0.0ms)[0m   [0mINSERT INTO `products` (`name`, `price`, `created_at`, `updated_at`, `id`) VALUES('wrox', 200, '2010-12-20 11:59:50', '2010-12-20 11:59:50', 1)[0m
+
+
+Processing ProductsController#add_to_cart (for 0.0.0.0 at 2010-12-20 17:29:50) [GET]
+  Parameters: {"to_check"=>{1=>"yes"}}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;35;1mOrder Create (0.0ms)[0m   [0mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`) VALUES('2010-12-20 11:59:50', 1, 200, '2010-12-20 11:59:50')[0m
+  [4;36;1mProductOrder Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mProductOrder Create (0.0ms)[0m   [0mINSERT INTO `product_orders` (`created_at`, `product_id`, `order_id`, `updated_at`) VALUES('2010-12-20 11:59:50', 1, 2, '2010-12-20 11:59:50')[0m
+Rendering template within layouts/products
+Rendering products/add_to_cart
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+Completed in 31ms (View: 0, DB: 16) | 200 OK [http://test.host/products/add_to_cart?to_check%5B1%5D=yes]
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `orders` [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `product_orders` [0m
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mProductOrder Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mProductOrder Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mProductOrder Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mProductOrder Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Create (0.0ms)[0m   [0mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`, `id`) VALUES('2010-12-20 12:06:05', 10, 350, '2010-12-20 12:06:05', 1)[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mOrder Create (0.0ms)[0m   [0;1mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`, `id`) VALUES('2010-12-20 12:07:48', 10, 350, '2010-12-20 12:07:48', 1)[0m
+  [4;35;1mSQL (31.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProductOrder Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `product_orders`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;36;1mOrder Create (0.0ms)[0m   [0;1mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`) VALUES('2010-12-20 13:47:06', 1, 300, '2010-12-20 13:47:06')[0m
+
+
+Processing OrdersController#success (for 0.0.0.0 at 2010-12-20 19:17:06) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mOrder Load (0.0ms)[0m   [0mSELECT * FROM `orders` WHERE (`orders`.`id` = 1) [0m
+Rendering template within layouts/orders
+Rendering orders/success
+Completed in 16ms (View: 16, DB: 16) | 200 OK [http://test.host/orders/success/1]
+  [4;36;1mSQL (31.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProduct Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Create (0.0ms)[0m   [0mINSERT INTO `products` (`name`, `price`, `created_at`, `updated_at`, `id`) VALUES('wrox', 200, '2010-12-20 13:47:06', '2010-12-20 13:47:06', 1)[0m
+
+
+Processing ProductsController#add_to_cart (for 0.0.0.0 at 2010-12-20 19:17:06) [GET]
+  Parameters: {"to_check"=>{1=>"yes"}}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;35;1mOrder Create (0.0ms)[0m   [0mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`) VALUES('2010-12-20 13:47:06', 1, 200, '2010-12-20 13:47:06')[0m
+  [4;36;1mProductOrder Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mProductOrder Create (0.0ms)[0m   [0mINSERT INTO `product_orders` (`created_at`, `product_id`, `order_id`, `updated_at`) VALUES('2010-12-20 13:47:06', 1, 2, '2010-12-20 13:47:06')[0m
+Rendering template within layouts/products
+Rendering products/add_to_cart
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+Completed in 31ms (View: 16, DB: 47) | 200 OK [http://test.host/products/add_to_cart?to_check%5B1%5D=yes]
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `orders` [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `product_orders` [0m
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mOrder Create (0.0ms)[0m   [0;1mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`, `id`) VALUES('2010-12-20 13:48:28', 10, 350, '2010-12-20 13:48:28', 1)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProductOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `product_orders`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProduct Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mOrder Create (0.0ms)[0m   [0;1mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`, `id`) VALUES('2010-12-20 13:49:10', 10, 350, '2010-12-20 13:49:10', 1)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProductOrder Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `product_orders`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProduct Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mOrder Create (0.0ms)[0m   [0;1mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`) VALUES('2010-12-20 13:50:32', 10, 350, '2010-12-20 13:50:32')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProductOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `product_orders`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProduct Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mOrder Create (0.0ms)[0m   [0;1mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`) VALUES('2010-12-20 13:51:37', 10, 350, '2010-12-20 13:51:37')[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProductOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `product_orders`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProduct Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mProductOrder Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `product_orders`[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mOrder Create (0.0ms)[0m   [0;1mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`) VALUES('2010-12-20 13:55:37', 10, 350, '2010-12-20 13:55:37')[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProductOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `product_orders`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProduct Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrder Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `orders`[0m
+  [4;36;1mOrder Create (0.0ms)[0m   [0;1mINSERT INTO `orders` (`created_at`, `quantity`, `total_price`, `updated_at`) VALUES('2010-12-20 13:56:29', 10, 350, '2010-12-20 13:56:29')[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m

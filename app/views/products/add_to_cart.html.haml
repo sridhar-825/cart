@@ -1,0 +1,12 @@
+%h1 Selected Items
+%table
+    %tr
+        %th Id
+        %th Name
+        %th Price
+    -@arr.each do |item|
+        %tr
+            %td=Product.find(item).id
+            %td=Product.find(item).name
+            %td=Product.find(item).price
+=button_to "Place order", :controller => 'orders', :action => 'success',:id => @new_order.id

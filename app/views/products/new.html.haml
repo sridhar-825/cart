@@ -1,0 +1,13 @@
+%h1 New product
+-semantic_form_for @product do |form|
+ -form.inputs do
+  =form.input :name
+  =form.input :price,:input_html => {:style=> "padding-top:4px" }
+  %p{:style=> "color:red;display:none" } Click here,it will disappear
+  %p{:id=>"first"}changes to yellow on button click
+ -form.buttons do
+  =form.commit_button
+  
+= link_to 'Back', products_path
+%input{:onClick => "javascript:check();", :type => "button", :value => "Check"}
+%button Hit Me
